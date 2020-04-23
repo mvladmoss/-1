@@ -18,7 +18,7 @@ class Images{
         int[] R=new int[9];
         int[] B=new int[9];
         int[] G=new int[9];
-        File output=new File("output.jpg");
+        File output=new File("FINAL.jpg");
         BufferedImage img=ImageIO.read(f);
         for(int i=1;i<img.getWidth()-1;i++)
             for(int j=1;j<img.getHeight()-1;j++)

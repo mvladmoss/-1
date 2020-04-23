@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a3b36c1-410e-4272-ad32-c2719b540eee" name="Default Changelist" comment="" />
+    <list default="true" id="1a3b36c1-410e-4272-ad32-c2719b540eee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Images.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Anaglyph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Histograms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Images.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Histograms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Images.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/output.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Images.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +48,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aWX3PukQyHnqt69rhrGvnUPaYN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,15 +60,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Histograms">
+  <component name="RunManager" selected="Application.Anaglyph">
+    <configuration name="Anaglyph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Anaglyph" />
+      <module name="Images.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Histograms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Histograms" />
       <module name="Images.main" />
@@ -64,14 +96,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="anaglyph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anaglyph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.Anaglyph" />
       <item itemvalue="Application.Histograms" />
       <item itemvalue="Application.Images" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Histograms" />
-        <item itemvalue="Application.Images" />
+        <item itemvalue="Application.Anaglyph" />
       </list>
     </recent_temporary>
   </component>
@@ -89,30 +142,70 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586853551784">
+    <state x="429" y="53" key="#anaglyph" timestamp="1587585196458">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586853551784" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586929586433">
+    <state x="429" y="53" key="#anaglyph/0.0.1440.900@0.0.1440.900" timestamp="1587585196458" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587620818046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586929586433" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586929586431">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587620818046" />
+    <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587621346423">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586929586431" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586929586429">
+    <state x="570" y="357" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.900@0.0.1440.900" timestamp="1587621346423" />
+    <state x="483" y="157" key="#xdebugger.evaluate" timestamp="1587620969184">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586929586429" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586929586432">
+    <state x="483" y="157" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1587620969184" />
+    <state width="927" height="466" key="DebuggerActiveHint" timestamp="1587586678795">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586929586432" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1586853179229">
+    <state width="927" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1587586678795" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1587622706513">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586853179229" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587622706513" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1587622706511">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587622706511" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1587622706511">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587622706511" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1587622706512">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587622706512" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1587622529425">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587622529425" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1587622529422">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587622529422" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1587622529422">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587622529422" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1587622529424">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587622529424" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1587584575821">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587584575821" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1587584916025">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1587584916025" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1587620846710">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587620846710" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586853171641">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
